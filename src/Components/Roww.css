@@ -1,0 +1,27 @@
+
+.row{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.movies-row{
+    display:flex;
+    margin-top: 20px;
+    overflow-x:scroll;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.movies{
+    width:200px;
+    height:200px;
+    margin-top: 10px;
+    object-fit: contain;
+    transition:transform 460ms;
+}
+.movies:hover{
+    transform:scale(1.06);
+}
+h1{
+    color:white;
+    text-align: left;
+}
